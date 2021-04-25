@@ -1,0 +1,10 @@
+{
+    0: (
+        map_id: -2,
+        x: 4,
+        y: 9,
+        w: 3,
+        h: 1,
+        events: [ StartBossFight ],
+    ),
+}

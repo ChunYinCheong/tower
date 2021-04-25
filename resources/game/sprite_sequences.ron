@@ -1,0 +1,15 @@
+{
+    1: (
+        id: 1,
+        images: [
+            "/sprite_sheets/Spell Effects/Thundersphere1.png",
+            "/sprite_sheets/Spell Effects/Thundersphere2.png",
+            "/sprite_sheets/Spell Effects/Thundersphere3.png",
+            "/sprite_sheets/Spell Effects/Thundersphere4.png",
+            "/sprite_sheets/Spell Effects/Thundersphere5.png",
+            "/sprite_sheets/Spell Effects/Thundersphere6.png",
+            "/sprite_sheets/Spell Effects/Thundersphere7.png",
+            "/sprite_sheets/Spell Effects/Thundersphere8.png",
+        ],
+    ),
+}

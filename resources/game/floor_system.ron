@@ -1,0 +1,9 @@
+(
+    pause: false,
+    current: Some(
+        Current(
+            character_id: 1,
+            floor: 0,
+        )
+    ),
+)

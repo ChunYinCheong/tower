@@ -1,0 +1,50 @@
+{
+    1: (
+        id: 1,
+        name: "Book Explosion",
+        description: "Book Explosion",
+        item_kind: ActionBook(6),
+    ),
+    2: (
+        id: 2,
+        name: "Book Lullaby",
+        description: "Book Lullaby",
+        item_kind: ActionBook(7),
+    ),
+    3: (
+        id: 3,
+        name: "Book Thunder",
+        description: "Book Thunder",
+        item_kind: ActionBook(8),
+    ),
+    4: (
+        id: 4,
+        name: "Book Fireball",
+        description: "Book Fireball",
+        item_kind: ActionBook(4),
+    ),
+    5: (
+        id: 5,
+        name: "Book Bean",
+        description: "Book Bean",
+        item_kind: ActionBook(9),
+    ),
+    6: (
+        id: 6,
+        name: "Book Concentrated Fireball",
+        description: "Book Concentrated Fireball",
+        item_kind: ActionBook(10),
+    ),
+    7: (
+        id: 7,
+        name: "Book Prepared",
+        description: "Book Prepared",
+        item_kind: ActionBook(12),
+    ),
+    8: (
+        id: 8,
+        name: "Book Heal",
+        description: "Book Heal",
+        item_kind: ActionBook(13),
+    ),
+}

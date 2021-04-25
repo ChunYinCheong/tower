@@ -1,0 +1,108 @@
+{
+    // Normal
+    -3: (
+        position: (
+            map_id: -3,
+            x: 10,
+            y: 2,
+
+        ),
+        teleport: (
+            map_id: -1,
+            x: 0,
+            y: 0,
+        ),
+    ),
+    // Boss
+    -2: (
+        position: (
+            map_id: -2,
+            x: 5,
+            y: 0,
+
+        ),
+        teleport: (
+            map_id: -1,
+            x: 0,
+            y: 0,
+        ),
+    ),
+    1: (
+        position: (
+            map_id: 0,
+            x: 5,
+            y: 2,
+
+        ),
+        teleport: (
+            map_id: 1,
+            x: 2,
+            y: 2,
+        ),
+    ),
+    2: (
+        position: (
+            map_id: 1,
+            x: 17,
+            y: 17,
+
+        ),
+        teleport: (
+            map_id: 2,
+            x: 2,
+            y: 2,
+        ),
+    ),
+    3: (
+        position: (
+            map_id: 2,
+            x: 17,
+            y: 17,
+
+        ),
+        teleport: (
+            map_id: 3,
+            x: 2,
+            y: 17,
+        ),
+    ),
+    4: (
+        position: (
+            map_id: 3,
+            x: 17,
+            y: 17,
+
+        ),
+        teleport: (
+            map_id: 4,
+            x: 2,
+            y: 10,
+        ),
+    ),
+    5: (
+        position: (
+            map_id: 4,
+            x: 17,
+            y: 10,
+
+        ),
+        teleport: (
+            map_id: 5,
+            x: 2,
+            y: 10,
+        ),
+    ),
+    6: (
+        position: (
+            map_id: 5,
+            x: 18,
+            y: 10,
+
+        ),
+        teleport: (
+            map_id: 6,
+            x: 2,
+            y: 2,
+        ),
+    ),
+}

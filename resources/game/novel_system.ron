@@ -1,0 +1,105 @@
+(
+    pause: false,
+    scripts: {
+        0: (
+            id: 0,
+            scripts: [
+                Text("Let start"),
+            ],
+        ),
+        1: (
+            id: 1,
+            scripts: [
+                Text("..."),
+            ],
+        ),
+        2: (
+            id: 2,
+            scripts: [
+                Text("Welcome"),
+                Select([
+                    ("Tell me something", [
+                        Select([
+                            ("Where am I?", [
+                                Text("Here is the tower"),
+                            ]),
+                            ("Back", [Restart]),
+                        ]),
+                    ]),
+                    ("Leave", []),
+                ]),
+            ],
+        ),
+        3: (
+            id: 3,
+            scripts: [
+                Text("You can acquire or forget skills here."),
+                Text("To learn a skill, you first get the skill book then you need to practice it."),
+                Text("You can only have 10 skill at most."),
+                Select([
+                    ("Skills book", [Shop]),
+                    ("Practice skill", [
+                        // Enter
+                        CharacterMove(Target, 1, 7),
+                        CharacterChangePosition(Target, 1, 2, 1002),
+                        CharacterMove(Initiator, 1, 7),
+                        CharacterChangePosition(Initiator, 3, 2, 1002),
+                        // Training
+                        CharacterMove(Target, 3, 2),
+                        CharacterMove(Initiator, 1, 2),
+                        CharacterMove(Target, 3, 2),
+                        CharacterMove(Initiator, 1, 2),
+                        CharacterMove(Target, 3, 2),
+                        CharacterMove(Initiator, 1, 2),
+                        // Add Ability, remove skill book
+                        PracticeSkill,
+                        // Leave
+                        CharacterMove(Target, 2, 0),
+                        CharacterChangePosition(Target, 1, 5, 0),
+                        CharacterMove(Initiator, 2, 0),
+                        CharacterChangePosition(Initiator, 2, 5, 0),
+                        Text("You finished the training!")
+                    ]),
+                    ("Forget skills", [
+                        Text("Once you forget the skill, you will lose all the skill exp too. /nAre you sure?"),
+                        Select([
+                            ("Yes", [
+                                SelectAbility([
+                                    Text("Please follow me."),
+                                    CharacterMove(Target, 1, 3),
+                                    CharacterChangePosition(Target, 3, 5, 1001),
+                                    CharacterMove(Initiator, 1, 5),
+                                    CharacterMove(Initiator, 1, 3),
+                                    CharacterChangePosition(Initiator, 2, 5, 1001),
+                                    CharacterMove(Target, 3, 1),
+                                    CharacterMove(Initiator, 2, 1),
+                                    Text("Here is the potion that assist you to forget the skill."),
+                                    Text("Please drink and have sleep in bed."),
+                                    Text("We will wake you up once complete."),
+                                    Text("..."),
+                                    Background(Color(0, 0, 0, 255)),
+                                    Text("zzz"),
+                                    Text("zzz zzz"),
+                                    Text("zzz zzz zzz"),
+                                    ForgetSkill,
+                                    Background(None),
+                                    Text("..."),
+                                    Text("You forgot the skill now."),
+                                    CharacterMove(Target, 2, 6),
+                                    CharacterMove(Initiator, 2, 5),
+                                    CharacterChangePosition(Target, 1, 5, 0),
+                                    CharacterChangePosition(Initiator, 2, 5, 0),
+                                ]),
+                                // Restart,
+                            ]),
+                            ("No", [Restart]),
+                        ]),
+                    ]),
+                    ("Leave", []),
+                ]),
+                Text("Bye"),
+            ],
+        ),
+    },
+    current: None,
+)

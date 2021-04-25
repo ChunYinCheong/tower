@@ -1,0 +1,20 @@
+{
+    1: (
+        id: 1,
+        avatar: "/images/character.png",
+        animation: {
+            "test": SpriteSheet(1, "test"),
+            "hit": SpriteSheet(1, "hit"),
+            "drain": SpriteSheet(1, "drain"),
+        },
+    ),
+    2: (
+        id: 2,
+        avatar: "/characters/test1/avatar64.png",
+        animation: {
+            "test": SpriteSheet(1, "test"),
+            "hit": SpriteSheet(1, "hit"),
+            "drain": SpriteSheet(1, "drain"),
+        },
+    ),
+}

@@ -1,0 +1,38 @@
+{
+    0: (
+        walkable: true,
+        kind: Image("/tilesets/0.png"),
+    ),
+    1: (
+        walkable: false,
+        kind: Image("/tilesets/1.png"),
+    ),
+    2: (
+        walkable: true,
+        kind: Image("/tilesets/town_rpg_pack/graphics/grass-tile.png"),
+    ),
+    3: (
+        walkable: true,
+        kind: Image("/tilesets/town_rpg_pack/graphics/grass-tile-2.png"),
+    ),
+    4: (
+        walkable: true,
+        kind: Image("/tilesets/town_rpg_pack/graphics/grass-tile-3.png"),
+    ),
+    5: (
+        walkable: false,
+        kind: Image("/tilesets/isometric-parts-02/isometric tiles/rocks03.png"),
+    ),
+    6: (
+        walkable: true,
+        kind: TileSheet(0, 1, 0),
+    ),
+    7: (
+        walkable: true,
+        kind: Image("/tilesets/scale.png"),
+    ),
+    8: (
+        walkable: true,
+        kind: Image("/tilesets/scale2.png"),
+    ),
+}

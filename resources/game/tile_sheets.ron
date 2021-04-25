@@ -1,0 +1,7 @@
+{
+    0: (
+        file_path: "/tilesets/sheet.png",
+        tile_width: 64,
+        tile_height: 64,
+    ),
+}

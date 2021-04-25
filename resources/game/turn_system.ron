@@ -1,0 +1,49 @@
+(
+    turn_queue: [
+        (
+            time :0,
+            kind: Character(
+                character_id: 1,
+                command: None,
+            ),
+        ),
+        (
+            time :0,
+            kind: Character(
+                character_id: 2,
+                command: None,
+            ),
+        ),
+        (
+            time :0,
+            kind: Character(
+                character_id: 3,
+                command: None,
+            ),
+        ),
+        (
+            time :0,
+            kind: Character(
+                character_id: 4,
+                command: None,
+            ),
+        ),
+        (
+            time :0,
+            kind: Character(
+                character_id: 5,
+                command: None,
+            ),
+        ),
+        (
+            time :0,
+            kind: Character(
+                character_id: 6,
+                command: None,
+            ),
+        ),
+    ],
+    waiting_input: false,
+    state: Empty,
+    pause: false,
+)

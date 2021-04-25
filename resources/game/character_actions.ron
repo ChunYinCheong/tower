@@ -1,0 +1,170 @@
+{
+    1: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    2: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    3: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    4: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+
+    5: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    6: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    7: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    8: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+    
+    9: (
+        action_id: 0,
+        cooldown: 0,
+        exp: 0,
+    ),
+    10: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    11: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    12: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    
+    13: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    14: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    15: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    16: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+
+    17: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    18: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    19: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    20: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+
+    21: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    22: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    23: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    24: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+
+    25: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    26: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    27: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    28: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ), 
+
+    29: (
+        action_id: 1,
+        cooldown: 0,
+        exp: 0,
+    ),
+    30: (
+        action_id: 2,
+        cooldown: 0,
+        exp: 0,
+    ),
+    31: (
+        action_id: 3,
+        cooldown: 0,
+        exp: 0,
+    ),
+    32: (
+        action_id: 5,
+        cooldown: 0,
+        exp: 0,
+    ),
+
+}

@@ -1,0 +1,22 @@
+[package]
+name = "tower"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.11"
+
+serde = { version = "1.0", features = ["derive"] }
+ron = "0.6.2"
+
+nalgebra = "0.23.1"
+ncollide2d = "0.26.1"
+
+pathfinding = "2.0.4"
+
+ggez = "0.5"
+fern = { version = "0.5", features = ["colored"] }
+chrono = "0.4"
